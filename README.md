@@ -1,2 +1,2 @@
 # prj_JuanUx
- Portifolio do Juan
+ Portifolio do Juan para UX

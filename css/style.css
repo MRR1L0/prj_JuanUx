@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(rgba(8, 119, 184, 0.884),rgb(150, 1, 1))
+  background: linear-gradient(rgba(2, 70, 109, 0.884),rgba(8, 119, 184, 0.884))
   ,url(/images/fundo.png);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
 }
@@ -310,8 +310,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-bg-dark {
-  background: #2F3C4F;
-  background: rgb(255 0 0);
+  
+  background: linear-gradient(rgba(8, 119, 184, 0.884),white)
+  ,url(/images/fundo.png);
 }
 .fh5co-bg-dark .fh5co-heading h2 {
   color: #fff !important;
@@ -1293,22 +1294,7 @@ input[type="text"] {
   opacity: 0;
 }
 
-.myworks {position: absolute;
-  width: 1300px;
-	height: 60px;
-	position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  font-size: 40px;
-	text-align:center;
-  background: linear-gradient(rgba(255, 21, 21, 0.884),rgb(150, 1, 1));
-padding: 5px;
-}
-.myworksl{
-  color: white;
-  font-size: 40px;
-}
+
 
 
 /*# sourceMappingURL=style.css.map */

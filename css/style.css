@@ -311,7 +311,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-bg-dark {
   
-  background: linear-gradient(rgba(8, 119, 184, 0.884),white)
+  background: linear-gradient(rgba(8, 119, 184, 0.884),#67c0fd)
   ,url(/images/fundo.png);
 }
 .fh5co-bg-dark .fh5co-heading h2 {

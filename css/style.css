@@ -96,13 +96,13 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header .overlay,
 .fh5co-cover .overlay {
   position: absolute;
-  top: 150px;
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   background: linear-gradient(rgba(2, 70, 109, 0.884),rgba(8, 119, 184, 0.884))
   ,url(/images/fundo.png);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
+  box-shadow: 5px 5px 10px rgba(102, 51, 51, 0.493);
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -140,6 +140,8 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-cover .display-tc h1 span {
   padding: 4px 15px;
   position: relative;
+  
+  
 }
 #fh5co-header .display-tc h1 span:before,
 .fh5co-cover .display-tc h1 span:before {
@@ -1294,6 +1296,15 @@ input[type="text"] {
   opacity: 0;
 }
 
+.light{
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 700px;
+  width: 300px;
+  left: 500px;
+  box-shadow: 5px 5px 10px rgba(102, 51, 51, 0.493);
+}
 
 
 
